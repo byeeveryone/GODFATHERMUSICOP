@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐈ɴᴄʀɪᴄɪʙʟ𝐄 𝐌ᴜsɪ𝐂")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "SWAN MUSIC")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5288547197").split()))
 
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/mrtosumemon/GODFATHE
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/INCRICIBLE_NETWORK")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/INCRICIBLE")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_aryan_black_hole")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/black_hole_music4")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
